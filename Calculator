@@ -1,0 +1,18 @@
+num_1=float(input("Enter number1: "))
+num_2=float(input("Enter number2: "))
+operation = input("Choose operation (+, -, *, /): ")
+if operation== "+":
+    result= float(num_1+num_2)
+elif operation=='-':
+    result=num_1-num_2
+elif operation=='*':
+    result=num_1*num_2
+elif operation=='/':
+     if num_2  == 0:
+         print("Error: Denominator cannot be zero.")
+     else:
+         result = num_1 / num_2
+else:
+  print("Invalid operation. Please choose +, -, *, or /.")
+if operation in "+-*/":
+  print("Result:", result)
