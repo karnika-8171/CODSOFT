@@ -1,0 +1,1 @@
+This repository contains three separate Python projects: a Calculator, a Contact Book, and a Rock-Paper-Scissors Game. Each project is designed to be beginner-friendly and provides a great way to practice fundamental programming concepts.
